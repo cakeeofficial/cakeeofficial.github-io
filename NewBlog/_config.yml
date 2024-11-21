@@ -3,22 +3,22 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: CAKEe OFFICIAL
-subtitle: 小蛋糕官方 [Minecraft服务器]
-description: QQ群：852973765
-keywords: Minecraft/CAKEe官方服务器
-author: CAKEe Team
-language: zh_CN
-timezone: Asia/Shanghai
+title: Hexo
+subtitle: ''
+description: ''
+keywords:
+author: John Doe
+language: en
+timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://cakeeofficial.github.io
+url: http://example.com
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
-  trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
-  trailing_html: false # Set to false to remove trailing '.html' from permalinks
+  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: true # Set to false to remove trailing '.html' from permalinks
 
 # Directory
 source_dir: source
@@ -40,7 +40,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: true
+post_asset_folder: false
 relative_link: false
 future: true
 syntax_highlighter: highlight.js
@@ -96,11 +96,9 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: butterfly
+theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
-  repository: https://github.com/cakeeofficial/cakeeofficial.github-io.git
-  branch: main
+  type: ''
